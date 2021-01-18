@@ -1,14 +1,11 @@
 package com.example.SpringSecurity2.Security.service;
 
-import com.example.SpringSecurity2.domain.Account;
-import lombok.Data;
+import com.example.SpringSecurity2.domain.entity.Account;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 
-import java.util.Collection;
 import java.util.List;
 
 @Getter @Setter
