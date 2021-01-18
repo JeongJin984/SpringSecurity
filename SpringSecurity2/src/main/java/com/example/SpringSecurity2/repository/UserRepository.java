@@ -6,7 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import javax.transaction.Transactional;
 
 public interface UserRepository extends JpaRepository<Account, Long> {
-    @Transactional
     Account findByUsername(String username);
     int countByUsername(String username);
 }
